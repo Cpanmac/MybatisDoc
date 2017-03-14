@@ -4,7 +4,7 @@
 
 ###2》新建一个Class:
 
-`package javaassist;
+```package javaassist;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;
@@ -46,7 +46,7 @@ public class Main {
 　　　　}
 　　}
 }
-`
+```
 ####执行main方法会在当前项目下生成一个activate文件夹，将activate文件夹下的com文件夹拷到mybatis_plus.jar所在目录下，在当前目录打开CMD窗口
 执行jar uvf mybatis_plus.jar com
 (注意：执行命令前先退出Idea)
