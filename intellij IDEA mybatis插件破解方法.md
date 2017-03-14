@@ -1,4 +1,4 @@
-###1、安装mybatis插件,找到mybatis_plus.jar包的位置,在C:\Users\LZHL\.IntelliJIdea2016.3\config\plugins\mybatis_plus\lib
+###1、安装mybatis插件,找到mybatis_plus.jar包的位置,在C:\Users\Cpanmac\.IntelliJIdea2016.3\config\plugins\mybatis_plus\lib
 
 ###2、新建一个Java Project,把mybatis_plus.jar和javassist-3.17.1.jar添加到工程的Libary
 
@@ -14,11 +14,6 @@ import javassist.CtMethod;
 
 import java.io.IOException;
 
-/**
-* @Author LZHL
-* @Create 2017-02-17 15:19
-* @Description
-*/
 public class Main {
 　　public static void main(String[] args)throws Exception{
 　　　　ClassPool pool = ClassPool.getDefault();
@@ -50,5 +45,6 @@ public class Main {
 
 ```
 ####执行main方法会在当前项目下生成一个activate文件夹，将activate文件夹下的com文件夹拷到mybatis_plus.jar所在目录下，在当前目录打开CMD窗口
-执行jar uvf mybatis_plus.jar com(**注意：执行命令前先退出Idea**)
-到些破解完成，重启Idea即可生效.
+执行jar uvf mybatis_plus.jar com
+(**注意：执行命令前先退出Idea**)
+到此破解完成，重启Idea即可生效.
