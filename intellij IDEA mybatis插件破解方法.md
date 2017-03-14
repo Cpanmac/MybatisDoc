@@ -1,4 +1,4 @@
-###1、安装mybatis插件,找到mybatis_plus.jar包的位置,在C:\Users\Cpanmac\.IntelliJIdea2016.3\config\plugins\mybatis_plus\lib
+###1、安装mybatis插件,找到mybatis_plus.jar包的位置,在C:\Users\Cpanmac\\.IntelliJIdea2016.3\config\plugins\mybatis_plus\lib
 
 ###2、新建一个Java Project,把mybatis_plus.jar和javassist-3.17.1.jar添加到工程的Libary
 
